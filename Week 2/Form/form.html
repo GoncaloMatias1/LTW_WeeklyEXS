@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="save.php" method="post"> <!-- Use method="post" for sensitive data -->
+        <p><strong>Tell us your name:</strong></p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <p><strong>What's your age?<br></strong></p>
+        <label><input type="radio" name="age" value="under18" required> <18</label>
+        <label><input type="radio" name="age" value="between19-35"> 19-35</label>
+        <label><input type="radio" name="age" value="between36-48"> 36-48</label>
+        <label><input type="radio" name="age" value="above49"> >49</label>
+
+        <p><strong>What was your previous profession?</strong></p>
+        <input name="profession" list="professions">
+        <datalist id="professions">
+            <option value="Teacher"></option>
+            <option value="Engineer"></option>
+            <option value="Doctor"></option>
+            <option value="Artist"></option>
+            <option value="Lawyer"></option>
+        </datalist>
+
+        <p><strong>What country are you from?</strong></p>
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+            <option value="">--Please select a country--</option>
+            <option value="united_states">United States</option>
+            <option value="united_kingdom">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="japan">Japan</option>
+        </select>
+
+        <p><strong>What interests you?</strong></p>
+        <label><input type="checkbox" name="interest" value="Bike"> Ride a bike</label>
+        <label><input type="checkbox" name="interest" value="Car"> Drive a car</label>
+        <label><input type="checkbox" name="interest" value="Games"> Play Video Games</label>
+        <label><input type="checkbox" name="interest" value="Book"> Read</label>
+
+        <p><strong>How did you find out about us?</strong></p>
+        <textarea name="source" rows="5" cols="60" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
