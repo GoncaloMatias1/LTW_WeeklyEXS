@@ -4,14 +4,15 @@
 
 h1 {
     font-family: "Imperial Script";
-    font-size: 9em;
+    font-size: 12em;
     text-align: center;
     font-weight: 300;
+    margin: 0%;
 }
 
 h2 {
     font-family: "Ruda";
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: end;
     border-bottom: 2px solid black;
     font-weight: 300;
@@ -61,7 +62,7 @@ span {
 
 main {
     background-color: rgb(237, 226, 214);
-    width: 42%;
+    width: 44%;
     margin: auto;
     padding: 1%;
 }
