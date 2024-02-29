@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The Washington Post</title>
+   </head> <!-- apenas aparece uma vez -->
+   <body>
+      <header>
+         <a href="all.html">
+            <img src="1280px-The_Logo_of_The_Washington_Post_Newspaper.svg.png" alt="" width="550">
+         <h1>The Washington Post</h1>
+         </a>
+         <p>By Goncalo Matias, 15/2/2024</p>
+      </header>
+      <img src="105804811-files-former-us-president-donald-trump-arrives-at-the-new-york-state-supreme-court-dur.jpg.avif" alt="">
+    <nav>
+      <ul>
+        <li>Conspiring to overturn the 2020 presidential election results in Georgia.</li>
+        <li>Removal of prosecutor Willis from the case and dismissal of charges.</li>
+        <li>Removal of prosecutor Willis from the case and dismissal of charges.</li>
+        <li>n New York, Trump faces 34 counts of falsifying business records connected with alleged hush money payments made to adult-film actress Stormy Daniels during the 2016 presidential campaign.</li>
+        <li>Financial benefits to Willis from hiring special prosecutor Nathan Wade.</li>
+        <li>Merchan also rejected Trump’s longshot bid to dismiss this case.</li>
+      </ul>
+    </nav>
+    <footer>
+      <p1>Author: Goncalo Matias &#169;&#65039;</p1>
+   </footer>
+   </body>
+</html>
