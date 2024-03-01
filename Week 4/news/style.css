@@ -96,9 +96,56 @@ ul li:nth-child(6) {
     color: white;
     padding-bottom: 1em;
     padding-top: 1em;
+    margin-bottom: 1em;
 }
 
 #related, h1 {
-    color : red;
+    color : white;
     
+}
+
+#news header { 
+    background-color: transparent;
+    position: absolute;
+    
+}
+
+#news h1 a{
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+#news img {
+    width: 100%;
+    height: auto;
+}
+
+#news p:first-child::first-letter {
+    font-size: 175%;
+    color: black;
+    font-weight: bold;
+}
+
+  
+footer{
+    background-color: #F4655F;
+    color: white;
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin-bottom: 1em;
+
+}
+
+footer p {
+    background-color: black;
+}
+
+footer .date{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer .tags a, .comments {
+    color: white;
 }
