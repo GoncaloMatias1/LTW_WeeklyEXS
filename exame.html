@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Groups Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        .firsttwo {
+            background-color: #f4f4f4;
+        }
+        .middle {
+            background-color: #ddd;
+        }
+        .lasttwo {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table with Column Groups</h1>
+    <table>
+        <colgroup>
+            <col span="2" class="firsttwo">
+            <col class="middle">
+            <col span="2" class="lasttwo">
+        </colgroup>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+</body>
+</html>
